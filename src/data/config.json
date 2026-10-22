@@ -1,0 +1,256 @@
+{
+  "tienda": {
+    "nombre": "La Camiseta",
+    "descripcion": "Camisetas de fútbol de todas las épocas y equipos",
+    "eslogan": "Viste tu historia.",
+    "whatsapp": "",
+    "hosting": "https://lacamiseta.netlify.app",
+    "moneda": "USD",
+    "simboloMoneda": "$"
+  },
+  "categorias": [
+    {
+      "id": "temporada-actual",
+      "nombre": "Temporada Actual",
+      "descripcion": "Camisetas de la temporada en curso"
+    },
+    {
+      "id": "retro",
+      "nombre": "Retro",
+      "descripcion": "Diseños retro clásicos"
+    },
+    {
+      "id": "temporadas-antiguas",
+      "nombre": "Temporadas Antiguas",
+      "descripcion": "Camisetas de temporadas pasadas"
+    },
+    {
+      "id": "peques",
+      "nombre": "Peques",
+      "descripcion": "Camisetas para los más pequeños"
+    },
+    {
+      "id": "selecciones",
+      "nombre": "Selecciones",
+      "descripcion": "Camisetas para los más pequeños"
+    }
+  ],
+  "productos": [
+    {
+      "id": "prod-001",
+      "nombre": "Camiseta Real Madrid Local 2024/25",
+      "descripcion": "Réplica de la camiseta local de la temporada 2024/25. Tejido ligero y transpirable, con un corte cómodo para el día a día.",
+      "precio": 20,
+      "categoria": "temporada-actual",
+      "imagenes": [
+        "/images/productos/prod-001-1.svg",
+        "/images/productos/prod-001-2.svg"
+      ],
+      "dorsales": [
+        { "numero": "1", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "2", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "3", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "4", "tallas": ["M", "L", "XL"] },
+        { "numero": "5", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "6", "tallas": ["M", "L", "XL"] },
+        { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "8", "tallas": ["M", "L", "XL"] },
+        { "numero": "9", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "10", "tallas": ["S", "M"] },
+        { "numero": "11", "tallas": ["M", "L", "XL"] },
+        { "numero": "14", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "15", "tallas": ["M", "L", "XL"] },
+        { "numero": "20", "tallas": ["S", "M", "L"] },
+        { "numero": "23", "tallas": ["M", "L", "XL", "XXL"] }
+      ],
+      "tallas": [],
+      "destacado": true
+    },
+    {
+      "id": "prod-002",
+      "nombre": "Camiseta Manchester City Local 2025/26",
+      "descripcion": "Camiseta local de la temporada 2025/26 con acabado mate y detalles en contraste. Pensada para llevar con estilo dentro y fuera del campo.",
+      "precio": 20,
+      "categoria": "temporada-actual",
+      "imagenes": [
+        "/images/productos/prod-002-1.svg",
+        "/images/productos/prod-002-2.svg"
+      ],
+      "dorsales": [
+        { "numero": "1", "tallas": ["M", "L", "XL"] },
+        { "numero": "3", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "5", "tallas": ["M", "L", "XL", "XXL"] },
+        { "numero": "6", "tallas": ["S", "M", "L"] },
+        { "numero": "8", "tallas": ["M", "L", "XL"] },
+        { "numero": "9", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "10", "tallas": ["S", "M", "L"] },
+        { "numero": "16", "tallas": ["M", "L"] },
+        { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "20", "tallas": ["M", "L", "XL"] },
+        { "numero": "25", "tallas": ["S", "M"] },
+        { "numero": "31", "tallas": ["M", "L"] },
+        { "numero": "47", "tallas": ["S", "M", "L", "XL", "XXL"] }
+      ],
+      "tallas": [],
+      "destacado": false
+    },
+    {
+      "id": "prod-003",
+      "nombre": "Camiseta Argentina Local 2024",
+      "descripcion": "Camiseta de la selección albiceleste para la temporada 2024. Tela suave, transpirable y de secado rápido.",
+      "precio": 20,
+      "categoria": "temporada-actual",
+      "imagenes": [
+        "/images/productos/prod-003-1.svg",
+        "/images/productos/prod-003-2.svg"
+      ],
+      "dorsales": [
+        { "numero": "1", "tallas": ["M", "L", "XL"] },
+        { "numero": "3", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "4", "tallas": ["S", "M", "L"] },
+        { "numero": "5", "tallas": ["M", "L", "XL"] },
+        { "numero": "6", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "7", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "9", "tallas": ["M", "L", "XL"] },
+        { "numero": "10", "tallas": ["S", "M", "L"] },
+        { "numero": "11", "tallas": ["M", "L", "XL"] },
+        { "numero": "20", "tallas": ["S", "M"] },
+        { "numero": "22", "tallas": ["M", "L"] },
+        { "numero": "24", "tallas": ["S", "M", "L", "XL"] }
+      ],
+      "tallas": [],
+      "destacado": true
+    },
+    {
+      "id": "prod-004",
+      "nombre": "Camiseta Retro Barcelona 1992",
+      "descripcion": "Diseño retro inspirado en la temporada 1992. Corte clásico, cuello polo y detalles en azul y amarillo.",
+      "precio": 15,
+      "categoria": "retro",
+      "imagenes": [
+        "/images/productos/prod-004-1.svg",
+        "/images/productos/prod-004-2.svg"
+      ],
+      "dorsales": [],
+      "tallas": ["S", "M", "L", "XL"],
+      "destacado": true
+    },
+    {
+      "id": "prod-005",
+      "nombre": "Camiseta Retro Milan 1994",
+      "descripcion": "Réplica retro de la camiseta de 1994. Rayas clásicas, escote de pico y un tejido suave de tacto vintage.",
+      "precio": 15,
+      "categoria": "retro",
+      "imagenes": [
+        "/images/productos/prod-005-1.svg",
+        "/images/productos/prod-005-2.svg"
+      ],
+      "dorsales": [],
+      "tallas": ["M", "L", "XL"],
+      "destacado": false
+    },
+    {
+      "id": "prod-006",
+      "nombre": "Camiseta Retro Francia 1998",
+      "descripcion": "Camiseta retro de la selección francesa de 1998. Base azul, detalles tricolores y corte holgado de los noventa.",
+      "precio": 15,
+      "categoria": "retro",
+      "imagenes": [
+        "/images/productos/prod-006-1.svg",
+        "/images/productos/prod-006-2.svg"
+      ],
+      "dorsales": [],
+      "tallas": ["S", "M", "L", "XL", "XXL"],
+      "destacado": false
+    },
+    {
+      "id": "prod-007",
+      "nombre": "Camiseta Liverpool Local 2018/19",
+      "descripcion": "Camiseta local de la temporada 2018/19. Rojo intenso, detalles en azul y un corte ajustado.",
+      "precio": 18,
+      "categoria": "temporadas-antiguas",
+      "imagenes": [
+        "/images/productos/prod-007-1.svg",
+        "/images/productos/prod-007-2.svg"
+      ],
+      "dorsales": [
+        { "numero": "1", "tallas": ["M", "L", "XL"] },
+        { "numero": "3", "tallas": ["S", "M", "L"] },
+        { "numero": "4", "tallas": ["M", "L", "XL"] },
+        { "numero": "5", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "6", "tallas": ["M", "L"] },
+        { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+        { "numero": "9", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "10", "tallas": ["S", "M", "L"] },
+        { "numero": "11", "tallas": ["M", "L", "XL"] },
+        { "numero": "14", "tallas": ["S", "M"] },
+        { "numero": "20", "tallas": ["M", "L", "XL"] },
+        { "numero": "23", "tallas": ["S", "M", "L"] },
+        { "numero": "26", "tallas": ["M", "L"] },
+        { "numero": "32", "tallas": ["S", "M", "L", "XL"] }
+      ],
+      "tallas": [],
+      "destacado": true
+    },
+    {
+      "id": "prod-008",
+      "nombre": "Camiseta Bayern Múnich Local 2019/20",
+      "descripcion": "Camiseta local de la temporada 2019/20. Diseño limpio con detalles azules y tejido transpirable.",
+      "precio": 18,
+      "categoria": "temporadas-antiguas",
+      "imagenes": [
+        "/images/productos/prod-008-1.svg",
+        "/images/productos/prod-008-2.svg"
+      ],
+      "dorsales": [
+        { "numero": "1", "tallas": ["M", "L", "XL"] },
+        { "numero": "4", "tallas": ["S", "M", "L"] },
+        { "numero": "5", "tallas": ["M", "L", "XL"] },
+        { "numero": "6", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "7", "tallas": ["S", "M", "L"] },
+        { "numero": "9", "tallas": ["M", "L", "XL"] },
+        { "numero": "10", "tallas": ["S", "M", "L"] },
+        { "numero": "13", "tallas": ["M", "L"] },
+        { "numero": "17", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "18", "tallas": ["M", "L", "XL"] },
+        { "numero": "19", "tallas": ["S", "M"] },
+        { "numero": "22", "tallas": ["M", "L", "XL"] },
+        { "numero": "25", "tallas": ["S", "M", "L"] },
+        { "numero": "29", "tallas": ["M", "L"] },
+        { "numero": "32", "tallas": ["S", "M", "L", "XL"] }
+      ],
+      "tallas": [],
+      "destacado": false
+    },
+    {
+      "id": "prod-009",
+      "nombre": "Camiseta Valencia Local 2001/02",
+      "descripcion": "Camiseta local de la temporada 2001/02. Diseño clásico en blanco y negro con un toque naranja.",
+      "precio": 18,
+      "categoria": "temporadas-antiguas",
+      "imagenes": [
+        "/images/productos/prod-009-1.svg",
+        "/images/productos/prod-009-2.svg"
+      ],
+      "dorsales": [
+        { "numero": "1", "tallas": ["M", "L", "XL"] },
+        { "numero": "2", "tallas": ["S", "M", "L"] },
+        { "numero": "3", "tallas": ["M", "L", "XL"] },
+        { "numero": "4", "tallas": ["S", "M", "L"] },
+        { "numero": "5", "tallas": ["M", "L"] },
+        { "numero": "6", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "7", "tallas": ["M", "L", "XL"] },
+        { "numero": "8", "tallas": ["S", "M"] },
+        { "numero": "9", "tallas": ["M", "L", "XL"] },
+        { "numero": "10", "tallas": ["S", "M", "L"] },
+        { "numero": "11", "tallas": ["M", "L"] },
+        { "numero": "13", "tallas": ["S", "M", "L", "XL"] },
+        { "numero": "14", "tallas": ["M", "L"] },
+        { "numero": "19", "tallas": ["S", "M", "L"] },
+        { "numero": "21", "tallas": ["M", "L", "XL"] }
+      ],
+      "tallas": [],
+      "destacado": false
+    }
+  ]
+}

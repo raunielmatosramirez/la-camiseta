@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <rect width="1000" height="1200" fill="#F1EFE9"/>
+  <rect x="0" y="780" width="1000" height="420" fill="#1B3A2F" opacity=".06"/>
+  <rect x="60" y="70" width="64" height="12" fill="#D48A9B"/>
+  <text x="60" y="124" fill="#1B3A2F" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="5">LA CAMISETA</text>
+  <text x="940" y="124" text-anchor="end" fill="#D48A9B" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="4">26/27</text>
+
+  <g transform="translate(20 480) scale(0.5) rotate(-9 400 500)" opacity=".92">
+    
+    <defs>
+      <clipPath id="corte-hero-a">
+        <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z"/>
+      </clipPath>
+    </defs>
+    <g>
+      <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z" fill="#D48A9B" stroke="#000000" stroke-opacity=".13" stroke-width="2"/>
+      
+      
+    <path d="M268 196 L164 310 L246 370 L288 304 Z" fill="#1B3A2F"/>
+    <path d="M532 196 L636 310 L554 370 L512 304 Z" fill="#1B3A2F"/>
+  
+      
+    <g stroke="#FFFFFF" stroke-width="8" fill="none" opacity=".95">
+      <path d="M322 198 L196 324"/>
+      <path d="M304 208 L178 334"/>
+      <path d="M286 218 L160 344"/>
+      <path d="M478 198 L604 324"/>
+      <path d="M496 208 L622 334"/>
+      <path d="M514 218 L640 344"/>
+    </g>
+  
+      
+    <path d="M344 144 C370 198 430 198 456 144" fill="none" stroke="#FFFFFF" stroke-width="17"/>
+    <path d="M352 149 C374 187 426 187 448 149" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".45"/>
+  
+      
+    <text x="400" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="700" fill="#1B3A2F" opacity=".85">10</text>
+    <text x="400" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="6" fill="#1B3A2F" opacity=".55">LA CAMISETA</text>
+  
+    </g>
+  
+  </g>
+
+  <g transform="translate(500 470) scale(0.5) rotate(9 400 500)" opacity=".92">
+    
+    <defs>
+      <clipPath id="corte-hero-b">
+        <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z"/>
+      </clipPath>
+    </defs>
+    <g>
+      <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z" fill="#1B3A2F" stroke="#000000" stroke-opacity=".13" stroke-width="2"/>
+      
+      
+    <path d="M268 196 L164 310 L246 370 L288 304 Z" fill="#D48A9B"/>
+    <path d="M532 196 L636 310 L554 370 L512 304 Z" fill="#D48A9B"/>
+  
+      
+    <g stroke="#FFFFFF" stroke-width="8" fill="none" opacity=".95">
+      <path d="M322 198 L196 324"/>
+      <path d="M304 208 L178 334"/>
+      <path d="M286 218 L160 344"/>
+      <path d="M478 198 L604 324"/>
+      <path d="M496 208 L622 334"/>
+      <path d="M514 218 L640 344"/>
+    </g>
+  
+      
+    <path d="M344 144 C370 198 430 198 456 144" fill="none" stroke="#FFFFFF" stroke-width="17"/>
+    <path d="M352 149 C374 187 426 187 448 149" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".45"/>
+  
+      
+    <text x="400" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="700" fill="#FFFFFF" opacity=".85">07</text>
+    <text x="400" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="6" fill="#FFFFFF" opacity=".55">LA CAMISETA</text>
+  
+    </g>
+  
+  </g>
+
+  <g transform="translate(170 240) scale(0.84)">
+    
+    <defs>
+      <clipPath id="corte-hero-c">
+        <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z"/>
+      </clipPath>
+    </defs>
+    <g>
+      <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z" fill="#FFFFFF" stroke="#000000" stroke-opacity=".13" stroke-width="2"/>
+      
+      
+    <path d="M268 196 L164 310 L246 370 L288 304 Z" fill="#1B3A2F"/>
+    <path d="M532 196 L636 310 L554 370 L512 304 Z" fill="#1B3A2F"/>
+  
+      
+    <g stroke="#D48A9B" stroke-width="8" fill="none" opacity=".95">
+      <path d="M322 198 L196 324"/>
+      <path d="M304 208 L178 334"/>
+      <path d="M286 218 L160 344"/>
+      <path d="M478 198 L604 324"/>
+      <path d="M496 208 L622 334"/>
+      <path d="M514 218 L640 344"/>
+    </g>
+  
+      
+    <path d="M344 144 C370 198 430 198 456 144" fill="none" stroke="#D48A9B" stroke-width="17"/>
+    <path d="M352 149 C374 187 426 187 448 149" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".45"/>
+  
+      
+    <rect x="356" y="286" width="42" height="48" fill="none" stroke="#1B3A2F" stroke-width="2" opacity=".75"/>
+    <text x="377" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1B3A2F" opacity=".8">LC</text>
+    <text x="400" y="486" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7" fill="#1B3A2F" opacity=".72">LA CAMISETA</text>
+    <text x="400" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="4" fill="#1B3A2F" opacity=".45">FÚTBOL · TODAS LAS ÉPOCAS</text>
+  
+    </g>
+  
+  </g>
+
+  <rect x="60" y="1080" width="880" height="1" fill="#1B3A2F" opacity=".16"/>
+  <text x="60" y="1128" fill="#1B3A2F" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="5">TODAS LAS ÉPOCAS · TODOS LOS EQUIPOS</text>
+</svg>

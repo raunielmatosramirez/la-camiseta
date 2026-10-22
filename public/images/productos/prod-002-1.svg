@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#F1EFE9"/>
+  <rect x="0" y="700" width="800" height="300" fill="#D48A9B" opacity=".08"/>
+  <text x="56" y="66" fill="#1B3A2F" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="4">LA CAMISETA</text>
+  <text x="744" y="66" text-anchor="end" fill="#D48A9B" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3">LOCAL 25/26</text>
+  <line x1="56" y1="88" x2="744" y2="88" stroke="#000000" stroke-opacity=".12"/>
+  <text x="400" y="746" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="310" font-weight="700" fill="#1B3A2F" opacity=".035">02</text>
+  
+    <defs>
+      <clipPath id="corte-prod-002-1">
+        <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z"/>
+      </clipPath>
+    </defs>
+    <g>
+      <path d="M268 196 L344 144 C368 186 432 186 456 144 L532 196 L636 310 L554 370 L512 304 L512 830 C468 856 332 856 288 830 L288 304 L246 370 L164 310 Z" fill="#6CABDD" stroke="#000000" stroke-opacity=".13" stroke-width="2"/>
+      
+      
+    <path d="M268 196 L164 310 L246 370 L288 304 Z" fill="#FFFFFF"/>
+    <path d="M532 196 L636 310 L554 370 L512 304 Z" fill="#FFFFFF"/>
+  
+      
+    <g stroke="#1C2C5B" stroke-width="8" fill="none" opacity=".95">
+      <path d="M322 198 L196 324"/>
+      <path d="M304 208 L178 334"/>
+      <path d="M286 218 L160 344"/>
+      <path d="M478 198 L604 324"/>
+      <path d="M496 208 L622 334"/>
+      <path d="M514 218 L640 344"/>
+    </g>
+  
+      
+    <path d="M344 144 C370 198 430 198 456 144" fill="none" stroke="#1C2C5B" stroke-width="17"/>
+    <path d="M352 149 C374 187 426 187 448 149" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".45"/>
+  
+      
+    <rect x="356" y="286" width="42" height="48" fill="none" stroke="#0B1B3A" stroke-width="2" opacity=".75"/>
+    <text x="377" y="318" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0B1B3A" opacity=".8">LC</text>
+    <text x="400" y="486" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="7" fill="#0B1B3A" opacity=".72">LA CAMISETA</text>
+    <text x="400" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="4" fill="#0B1B3A" opacity=".45">FÚTBOL · TODAS LAS ÉPOCAS</text>
+  
+    </g>
+  
+  <text x="400" y="942" text-anchor="middle" fill="#1B3A2F" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="4">IMAGEN DE MUESTRA</text>
+</svg>

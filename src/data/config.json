@@ -2,7 +2,7 @@
   "tienda": {
     "nombre": "La Camiseta",
     "descripcion": "Camisetas de fútbol de todas las épocas y equipos",
-    "eslogan": "Viste tu historia.",
+    "eslogan": "Viste la historia de tu equipo.",
     "whatsapp": "",
     "hosting": "https://lacamiseta.netlify.app",
     "moneda": "USD",
@@ -20,8 +20,8 @@
       "descripcion": "Diseños retro clásicos"
     },
     {
-      "id": "temporadas-antiguas",
-      "nombre": "Temporadas Antiguas",
+      "id": "ofertas-temporadas-antiguas",
+      "nombre": "Ofertas Temporadas Antiguas",
       "descripcion": "Camisetas de temporadas pasadas"
     },
     {
@@ -47,13 +47,8 @@
         "/images/productos/prod-001-2.svg"
       ],
       "dorsales": [
-        { "numero": "1", "tallas": ["S", "M", "L", "XL", "XXL"] },
-        { "numero": "2", "tallas": ["S", "M", "L", "XL", "XXL"] },
-        { "numero": "3", "tallas": ["S", "M", "L", "XL", "XXL"] },
         { "numero": "4", "tallas": ["M", "L", "XL"] },
-        { "numero": "5", "tallas": ["S", "M", "L", "XL", "XXL"] },
-        { "numero": "6", "tallas": ["M", "L", "XL"] },
-        { "numero": "7", "tallas": ["S", "M", "L", "XL", "XXL"] },
+
         { "numero": "8", "tallas": ["M", "L", "XL"] },
         { "numero": "9", "tallas": ["S", "M", "L", "XL", "XXL"] },
         { "numero": "10", "tallas": ["S", "M"] },
@@ -99,7 +94,7 @@
       "nombre": "Camiseta Argentina Local 2024",
       "descripcion": "Camiseta de la selección albiceleste para la temporada 2024. Tela suave, transpirable y de secado rápido.",
       "precio": 20,
-      "categoria": "temporada-actual",
+      "categoria": "selecciones",
       "imagenes": [
         "/images/productos/prod-003-1.svg",
         "/images/productos/prod-003-2.svg"

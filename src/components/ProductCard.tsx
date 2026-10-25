@@ -1,52 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
 import { useCart } from "@/components/CartProvider";
-import { getCategoria, getTallasDisponibles, tienda } from "@/lib/catalog";
+import { getCategoria, tienda } from "@/lib/catalog";
 import { formatearPrecio } from "@/lib/format";
 import type { Producto } from "@/lib/types";
 
 export function ProductCard({ producto }: { producto: Producto }) {
-  const { addItem } = useCart();
-  const [anadido, setAnadido] = useState(false);
-  const temporizador = useRef<ReturnType<typeof setTimeout> | null>(null);
+  // Ya no se usa addItem aquí: la talla y el dorsal se eligen en el detalle.
+  useCart();
   const categoria = getCategoria(producto.categoria);
-
-  useEffect(() => {
-    return () => {
-      if (temporizador.current) {
-        clearTimeout(temporizador.current);
-      }
-    };
-  }, []);
-
-  function anadirAlCarrito() {
-    // Primera combinación válida:
-    // - Si hay dorsales: primer dorsal + su primera talla.
-    // - Si no hay dorsales: primera talla disponible.
-    let talla = "";
-    let dorsal = "";
-
-    if (producto.dorsales.length > 0) {
-      const primerDorsal = producto.dorsales[0];
-      dorsal = primerDorsal.numero;
-      talla = primerDorsal.tallas[0] ?? "";
-    } else {
-      const tallas = getTallasDisponibles(producto);
-      talla = tallas[0] ?? "";
-    }
-
-    if (!talla) return;
-
-    addItem(producto.id, talla, dorsal);
-    setAnadido(true);
-
-    if (temporizador.current) {
-      clearTimeout(temporizador.current);
-    }
-    temporizador.current = setTimeout(() => setAnadido(false), 1500);
-  }
 
   return (
     <article className='group flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-lc-negro/5 transition-colors duration-200'>
@@ -89,13 +52,12 @@ export function ProductCard({ producto }: { producto: Producto }) {
         </p>
 
         <div className='mt-auto pt-2 sm:pt-3'>
-          <button
-            type='button'
-            onClick={anadirAlCarrito}
-            className='min-h-8 w-full rounded-full bg-lc-verde px-2 text-[11px] font-semibold text-white transition-colors duration-200 hover:bg-lc-verde/90 active:scale-[0.98] sm:min-h-9 sm:px-3 sm:text-xs'
+          <Link
+            href={`/producto/${producto.id}`}
+            className='inline-flex min-h-8 w-full items-center justify-center rounded-full bg-lc-verde px-2 text-[11px] font-semibold text-white transition-colors duration-200 hover:bg-lc-verde/90 active:scale-[0.98] sm:min-h-9 sm:px-3 sm:text-xs'
           >
-            {anadido ? "Añadido ✓" : "Añadir al carrito"}
-          </button>
+            Ver producto
+          </Link>
         </div>
       </div>
     </article>
